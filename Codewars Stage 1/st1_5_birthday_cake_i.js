@@ -1,4 +1,4 @@
-// returns ascii code
+
 function cake(x, y) {
   let total = 0;
 
@@ -9,9 +9,7 @@ function cake(x, y) {
       total += y.charCodeAt(i) - 96;  //add alphabetic position of odd elements
     }
   }
-   //is total more than 70% of
+   //is total more than 70%?
    return (total * 100 / x > 70) ? 'Fire!': 'That was close!';
 
 }
-
-console.log(cake(56, 'ifkhchlhfd'));
